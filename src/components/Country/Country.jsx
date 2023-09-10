@@ -28,7 +28,7 @@ const Country = ({country, handelVisitedCountries,handelVisitedFlags}) => {
             <p className=' font-semibold '> CCN3 :{ccn3} </p>
             <div className='py-4 text-center'>
             {/* <button onClick={passWithParents}  className= 'mr-2 rounded-lg font-semibold bg-violet-700 py-1 px-5 text-gray-100'> Mark Visited </button> */}
-            <button onClick={() => handelVisitedCountries(country)}  className= 'mr-2 rounded-lg font-semibold bg-violet-700 py-1 px-5 text-gray-100'> Mark Visited </button>
+            {/* <button onClick={() => handelVisitedCountries(country)}  className= 'mr-2 rounded-lg font-semibold bg-violet-700 py-1 px-5 text-gray-100'> Mark Visited </button> */}
 
             <button onClick={() => handelVisitedFlags(country)}  className= 'mr-2 rounded-lg font-semibold bg-fuchsia-700 py-1 px-5 text-gray-100'> Mark Flags </button>
 
